@@ -47,7 +47,7 @@ void Game::playerTurn()
         std::cout << "Player " << player << " what position would you like to mark?: ";
         std::cin >> input;
 
-        if (!std::cin || !(input >= 0 && input <= 8))
+        if (!std::cin || !(input >= 0 && input < gridSize * gridSize))
         {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
