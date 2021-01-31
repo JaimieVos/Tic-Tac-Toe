@@ -3,7 +3,7 @@ This is just a simple 2 player tic tac toe game. I made this to practice my C++ 
 
 How to compile:
 
-    g++ main.cpp -o tictactoe
+    g++ main.cpp game.cpp -o tictactoe
 
 How to run:
 
