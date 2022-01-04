@@ -8,4 +8,3 @@ How to compile:
 How to run:
 
     tictactoe.exe
-
